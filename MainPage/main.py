@@ -6,8 +6,7 @@ class MainPage:
     def show(self):
         print(self.title)
 
-
-
 if __name__ =="__main__":
     main_page = MainPage()
     main_page.show()
+
