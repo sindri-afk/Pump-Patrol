@@ -5,8 +5,6 @@ class MembershipPlans:
         self.Logo = Logo()
 
     def membership_type(self):
-        self.Logo.draw()
-        print("\n\n")
         print("Options: Go to Go, Short Term, Long Term\n")
         choice = input("Enter the type of membership you want to purchase(1, 2, 3): \n")
         if choice == "1":
